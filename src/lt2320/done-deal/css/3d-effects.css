@@ -1,0 +1,104 @@
+aside strong
+{
+  text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+}
+
+.inventory
+{
+  -moz-box-shadow: 10px 11px 12px rgba(0,1,2,0.5);
+  -webkit-box-shadow: 10px 11px 12px rgba(0,1,2,0.5);
+  box-shadow: 10px 11px 12px rgba(0,1,2,0.5);
+}
+
+.siteSubmit
+{
+  border: 1px solid rgb(100,140,160);
+  background-color: #ACE;
+  color: white;
+  height: 22px;
+  text-shadow: 1px 1px 1px rgb(150,210,240);
+  text-align: center;
+  vertical-align: text-bottom;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.siteSubmit
+{
+  -moz-box-shadow:
+    0px 0px 3px white,
+    inset 0 -7px 7px 0 rgba(100,140,160,1.0),
+    inset 0 -7px 0 7px rgba(150,210,240,0.6),
+    inset 0 -22px 4px -4px rgba(150,214,240,0.8);
+  -webkit-box-shadow:
+    0px 0px 3px white,
+    inset 0 -7px 7px 0 rgba(100,140,160,1.0),
+    inset 0 -7px 0 7px rgba(150,210,240,0.6),
+    inset 0 -22px 4px -4px rgba(150,214,240,0.8);
+  box-shadow:
+    0px 0px 3px white, /* glow around button */
+    inset 0 -7px 7px 0 rgba(100,140,160,1.0), /* bottom-most */
+    inset 0 -7px 0 7px rgba(150,210,240,0.6), /* top-to-middle except shine */
+    inset 0 -22px 4px -4px rgba(150,210,240,0.8); /* shine except topmost */ 
+} 
+
+
+.siteSubmit:hover
+{
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+a
+{
+  -moz-transition:
+      background-color 0.4s linear,
+      -moz-box-shadow 0.2s linear 0.1s;
+  -o-transition:
+      background-color 0.4s linear,
+      box-shadow 0.2s linear 0.1s;
+  -webkit-transition:
+      background-color 0.4s linear,
+      -webkit-box-shadow 0.2s linear 0.1s;
+  -ms-transition:
+      background-color 0.4s linear,
+      box-shadow 0.2s linear 0.1s;
+  transition:
+      background-color 0.4s linear,
+      box-shadow 0.2s linear 0.1s;
+}
+
+a:hover
+{
+  background-color: rgba(233,185,40,0.9);
+  -moz-box-shadow: 0px 0px 10px 5px rgb(233,185,40);
+  -webkit-box-shadow: 0px 0px 10px 5px rgb(233,185,40);
+  box-shadow: 0px 0px 10px 5px rgb(233,185,40);
+}
+
+.deal-reviews section img:hover
+{
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.deal-reviews section img
+{
+  -moz-transition:
+      -moz-transform 0.5s linear;
+  -o-transition:
+      -o-transform 0.5s linear;
+  -webkit-transition:
+      -webkit-transform 0.5s linear;
+  -ms-transition:
+      -ms-transform 0.5s linear;
+  transition:
+      transform 0.5s linear;
+}

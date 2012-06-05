@@ -1,0 +1,32 @@
+div, h1, h2, h3, h4, h5, h6, label, p
+{
+  zoom: 1;
+}
+
+body
+{
+  margin-top:0;
+}
+
+header,
+.Header
+{
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+#rightContainer
+{
+  margin: 0 1% 1em 0;
+}
+
+.deal-detail h2.Title
+{
+	margin-left: 0;
+}
+
+#welcome h1,
+#welcome h2
+{
+  background-image: none;
+}

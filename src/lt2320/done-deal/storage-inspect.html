@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Local Storage Contents</title>
+    <style type="text/css">
+      dt { font-weight:bold; margin:1em 0em; }
+    </style>
+    <script type="text/javascript" src="/js/jquery.js"> </script>
+    <script type="text/javascript" src="/js/modernizr.js"> </script>
+    <script type="text/javascript" src="/js-webshim/minified/polyfiller.js"> </script>
+  </head>
+  <body>
+    <h1>Local Storage Contents</h1>
+    <dl id="list">
+    </dl>
+    <script type="text/javascript">
+      //<![CDATA[
+      $.webshims.polyfill('json-storage');
+      $(function()
+      {
+        var list = $('#list');
+        for ( var i = 0 ; true ; i++ )
+        {
+          try
+          {
+            var key = localStorage.key(i);
+            var val = localStorage.getItem(key);
+            list.append('<dt>' 
+              + key.replace(/&/g,'&amp;').replace(/</g,'&lt;')
+              + '</dt><dd>'
+              + val.replace(/&/g,'&amp;').replace(/</g,'&lt;')
+              + '</dd>');
+          }
+          catch(e) { break; }
+        }
+        list.after('<p>'+i+' keys found</p>');
+      });
+      //]>
+    </script>
+  </body>
+</html>

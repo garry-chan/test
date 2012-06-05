@@ -1,0 +1,43 @@
+if ( ! Modernizr.canvastext )
+{
+  //  Adjust the body so we can position elements relative to it.
+  //  Determine the offset of the canvas relative to the body, so
+  //  we can position the elements in the correct place.
+
+  var body = $('body').css('position','relative');
+  var bOffset = body.offset();
+  var cOffset = canvas.offset();
+  var top = cOffset.top -
+    ( bOffset.top + Number(canvas.css('marginTop').replace(/[^0-9]/g,'')) );
+
+  //  Create a fillText() polyfill.  This rudimentary version creates
+  //  a span element containing the specified text, and overlays it
+  //  at the correct (x,y) position over the canvas.
+
+  context.fillText =
+    function( text, x, y )
+    {
+      //  Create the span using properties from the drawing context
+
+      var span = $('<span>'+text+'</span>').appendTo(body).css( {
+        color: context.fillStyle,
+        font: context.font,
+        position: 'absolute',
+        textAlign: context.textAlign,
+        top: (y+top)+'px',
+        zIndex: 1+canvas.css('zIndex') } );
+
+      // Adjust the "x" position according to the text alignment.
+
+      if ( context.textAlign == "right" )
+        x -= span.width();
+      else if ( context.textAlign == "center" )
+        x -= (span.width()/2);
+
+      //  Move the span to the correct (x,y) position
+
+      span.css( {
+        left: (x+cOffset.left)+'px',
+        width: canvas.width()-x } );
+    }
+}

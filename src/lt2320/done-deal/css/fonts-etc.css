@@ -1,0 +1,16 @@
+header hgroup h2
+{
+  font: normal normal 1.75em GabrielleRegular;
+}
+
+section[data-cat*="GREEN"]
+{
+  background-color:rgba(0,255,0,0.2);
+}
+
+section[data-cat*="GREEN"] h1 a
+{
+  font-family: GabrielleRegular;
+  font-size: 150%;
+  font-weight: normal;
+}

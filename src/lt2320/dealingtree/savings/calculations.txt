@@ -1,0 +1,21 @@
+// compute values for charting:
+// xStep = distance between bar centers
+// yStep = pixels per unit of savings
+// base = vertical position (px) of the chart baseline
+
+var len = 0;
+var totalSavings = 0;
+var highestValue = 0;
+for ( key in inv )
+{
+  len++;
+  totalSavings += ( inv[key].value - inv[key].price );
+  if ( Number(inv[key].value) > highestValue )
+    highestValue = Number(inv[key].value);
+}
+
+var xStep = canvas.width() / ( len + 2 );
+var yStep = ( canvas.height() - 70 ) /
+              ((totalSavings>highestValue)?totalSavings:highestValue);
+var base = canvas.height() - 60;
+var xHalf = Math.floor(xStep/2);

@@ -1,0 +1,10 @@
+.svg #welcome
+{
+  background-image: url(/images/tree-graphic.svg);
+}
+
+.svg #welcome h1
+{
+  background-image: url(/images/arrow-up.svg);
+}
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
+	<id>tag:chirps@chirpinator:dealingtree</id>
+	<link type="application/atom+xml" rel="self" href="http://chirpinator/query/dealingtree"/>
+	<title>dealingtree @ chirpinator</title>
+	<entry>
+		<author>
+			<name>Tara Fraser</name>
+			<uri>http://chirpinator/user/TaraFraser</uri>
+		</author>
+		<id>tag:chirps@chirpinator:2011012021142102134</id>
+		<content type="html">read my dealingtree reviews &lt;a href="http://goo.gl/sJZZO"&gt;http://goo.gl/sJZZO&lt;/a&gt;</content>
+		<title>read my dealingtree reviews http://goo.gl/sJZZO</title>
+		<published>2011-01-20T21:14:21Z</published>
+		<updated>2011-01-20T21:14:21Z</updated>
+		<link type="image/png" rel="image" href="http://chirpinator/avatar/TaraFraser.png"/>
+		<link type="text/html" rel="alternate" href="http://chirpinator/entry/2011012021142102134"/>
+	</entry>
+	<entry>
+		<author>
+			<name>Randy Casburn</name>
+			<uri>http://chirpinator/user/RandyCasburn</uri>
+		</author>
+		<id>tag:chirps@chirpinator:2011012018505515063</id>
+		<content type="html">Finding great deals at &lt;a href="http://tinyurl.com/3rgotkr"&gt;http://tinyurl.com/3rgotkr&lt;/a&gt; - DealingTree!</content>
+		<title>Finding great deals at http://tinyurl.com/3rgotkr - DealingTree!</title>
+		<published>2011-01-20T18:50:55Z</published>
+		<updated>2011-01-20T18:50:55Z</updated>
+		<link type="image/png" rel="image" href="http://chirpinator/avatar/RandyCasburn.png"/>
+		<link type="text/html" rel="alternate" href="http://chirpinator/entry/2011012018505515063"/>
+	</entry>
+	<entry>
+		<author>
+			<name>Andrew M. Andrews III</name>
+			<uri>http://chirpinator/user/AndrewMAndrewsIII</uri>
+		</author>
+		<content type="html">&lt;a href="http://dealingtree.com"&gt;http://dealingtree.com&lt;/a&gt; has some great coupons, check them out!</content>
+		<title>http://dealingtree.com has some great coupons, check them out!</title>
+		<id>tag:chirps@chirpinator:2011012017313620960</id>
+		<published>2011-01-20T17:31:36Z</published>
+		<updated>2011-01-20T17:31:36Z</updated>
+		<link type="image/png" rel="image" href="http://chirpinator/avatar/AndrewMAndrewsIII.png"/>
+		<link type="text/html" rel="alternate" href="http://chirpinator/entry/2011012017313620960"/>
+	</entry>
+	<entry>
+		<author>
+			<name>Michael Denderowicz</name>
+			<uri>http://chirpinator/user/MichaelDenderowicz</uri>
+		</author>
+		<content type="html">just wrote another review! &lt;a href="http://goo.gl/sJZZO"&gt;http://goo.gl/sJZZO&lt;/a&gt;
+		</content>
+		<title>just wrote another review! http://goo.gl/sJZZO
+		</title>
+		<id>tag:chirps@chirpinator:2011012017251822209</id>
+		<published>2011-01-20T17:25:18Z</published>
+		<updated>2011-01-20T17:25:18Z</updated>
+		<link type="image/png" rel="image" href="http://chirpinator/avatar/MichaelDenderowicz.png"/>
+		<link type="text/html" rel="alternate" href="http://chirpinator/entry/2011012017251822209"/>
+	</entry>
+	<entry>
+		<author>
+			<name>Kevin Rattan</name>
+			<uri>http://chirpinator/user/KevinRattan</uri>
+		</author>
+		<content type="html">Free overnight shipping @ &lt;a href="http://dealingtree.com"&gt;http://dealingtree.com&lt;/a&gt;!</content>
+		<title>Free overnight shipping @ http://dealingtree.com!</title>
+		<id>tag:chirps@chirpinator:2011012016031190210</id>
+		<published>2011-01-20T16:03:11Z</published>
+		<updated>2011-01-20T16:03:11Z</updated>
+		<link type="image/png" rel="image" href="http://chirpinator/avatar/KevinRattan.png"/>
+		<link type="text/html" rel="alternate" href="http://chirpinator/entry/2011012016031190210"/>
+	</entry>
+</feed>

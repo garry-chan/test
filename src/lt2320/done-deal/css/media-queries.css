@@ -1,0 +1,176 @@
+@media screen and (max-width: 900px) {
+
+    header
+    {
+      border-bottom: 0.3em solid #252525;
+    }
+      
+    header hgroup
+    {
+      height: inherit;
+      padding: 0;
+    }
+
+    header hgroup h1
+    {
+      clear: both;
+      float: none;
+      font-size: 1px;
+      height:48px;
+      line-height: 0;
+      margin-top: 1em;
+      text-align: center;
+      width: 100%;
+    }
+
+    header hgroup h2
+    {
+      padding: 0;
+      float: none;
+      font-size: 100%;
+      text-align: center;
+      width: 100%;
+    }
+
+    header nav menu
+    {
+      float: none;
+      text-align: center;
+    }
+
+    article
+    {
+      margin: 1em;
+      padding: 1em;
+    }
+
+    .deal-summary
+    {
+      width: 42%;
+    }
+
+    #rightContainer
+    {
+      width: 20%;
+    }
+
+    #rightContainer aside
+    {
+      display: none;
+    }
+
+    .inventory
+    {
+      margin: 0 0 1em 0;
+      padding: 1em;
+    }
+
+    #rightContainer .tagcloud
+    {
+      display: none;
+    }
+
+    #welcome
+    {
+      height: inherit;
+      min-height: inherit;
+      padding-bottom: 4em;
+    }
+
+    #welcome h1
+    {
+      font-size: 44px;
+      padding-top: 5%;
+    }
+
+    #welcome p
+    {
+      font-size: inherit;
+      padding: 1em;
+    }
+
+    .main
+    {
+      margin-right: 24%;
+      padding: 2px;
+    }
+
+    .deal-detail img
+    {
+      float: none;
+      width: 100%;
+    }
+
+    .deal-detail h1,
+    .deal-detail h2,
+    .deal-detail h3
+    {
+      font-size: inherit;
+      margin-left: inherit;
+    }
+
+    .deal-detail .deal-reviews img
+    {
+      float: left;
+      width: inherit;
+    }
+
+    .deal-reviews section
+    {
+      float: none;
+      height: inherit;
+      width: inherit;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    nav li
+    {
+      font-size: smaller;
+      margin-right: 0;
+      width: 4em;
+    }
+
+    #rightContainer
+    {
+      margin: 2px;
+      padding: 2px;
+      width: 90px;
+    }
+
+    #inventory h1
+    {
+      text-align: center;
+    }
+
+    #inventory h2
+    {
+      font-size: 8px;
+      text-align: center;
+    }
+
+    #marketSelector
+    {
+      font-size: 100%;
+    }
+
+    #welcome h1
+    {
+      font-size: 20px;
+    }
+
+    .deal-summary
+    {
+      height: inherit;
+      float: none;
+      width: 90%;
+    }
+
+    .main
+    {
+      margin: 2px 96px 2px 2px;
+      padding: 2px;
+    }
+
+}

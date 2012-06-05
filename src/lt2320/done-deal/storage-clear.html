@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clear Local Storage</title>
+    <script type="text/javascript" src="/js/jquery.js"> </script>
+    <script type="text/javascript" src="/js/modernizr.js"> </script>
+    <script type="text/javascript" src="/js-webshim/minified/polyfiller.js"> </script>
+  </head>
+  <body>
+    <h1>Clear Local Storage</h1>
+    <script type="text/javascript">
+      //<![CDATA[
+      $.webshims.polyfill('json-storage');
+      $(function()
+      {
+        $('#status').append('Clearing storage...');
+        localStorage.clear();
+        $('#status').append('done!');
+      });
+    </script>
+    <p id="status"></p>
+  </body>
+</html>

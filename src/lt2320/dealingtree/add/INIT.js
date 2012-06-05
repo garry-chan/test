@@ -1,0 +1,2 @@
+$.webshims.polyfill('forms');
+

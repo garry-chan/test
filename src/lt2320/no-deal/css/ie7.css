@@ -1,0 +1,32 @@
+nav li,
+.Navigation li
+{
+  zoom: 1;
+  display: inline;
+}
+
+header hgroup,
+.Header .Headings
+{
+  margin-top: -24px;
+}
+
+/* NIR/Phark for IE6/7 w/GI */
+header hgroup h1,
+.Header .Headings h1
+{
+  text-indent: -9000px;
+  background: url(/images/logo-background.png) no-repeat 0 0;
+}
+
+header hgroup h2,
+.Header .Headings .SubTitle1
+{
+  margin-top: 16px;
+}
+
+.main
+{
+  margin-right: 0;
+  width: 70%;
+}

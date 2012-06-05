@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="100"
+    height="250"
+    version="1.1"
+    style="fill:none;stroke:#e9b928"
+    >
+  <path
+     style="fill:#e9b928"
+     d="M1,25 v-25 h+25" />
+  <path
+     style="stroke-width:6"
+     d="M12,12 C96,124 96,125 4,254" />
+</svg>

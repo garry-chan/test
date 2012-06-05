@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Exercise Explorer</title>
+    <hta:application 
+      contextMenu="no"
+      icon="images/HTML5.ico"
+      />
+    <meta charset="utf-8" />
+    <meta name="description" content="Course 2320 Exercise Explorer" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	  <link type="text/css" href="jquery-ui-1.8.16.custom/css/custom-theme/jquery-ui-1.8.16.custom.css" rel="stylesheet" />	
+    <style>
+      kbd { font-size: 10pt; }
+      .editLink { margin-left: 1em; }
+      .editLink img { height: 12px; width: 12px; }
+      .ui-accordion .ui-accordion-content { padding: 0 }
+      ul { list-style-type: none; margin: 0; }
+      li a { color: #009900!important; font: italic 10pt sans-serif; }
+      li a img { border: none }
+    </style>
+		<script type="text/javascript" src="jquery-ui-1.8.16.custom/js/jquery-1.6.2.min.js"></script>
+		<script type="text/javascript" src="jquery-ui-1.8.16.custom/js/jquery-ui-1.8.16.custom.min.js"></script>
+    <script src="exercise-explorer.js"></script>
+	</head>
+  <body>
+    <div class="ui-widget">
+      <div class="ui-state-highlight ui-corner-all" style="margin-top: 20px; padding: 0 .7em;">
+      <p>
+        <span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+        Click an exercise name to list the files for that exercise.
+        Click an editor icon after a filename to edit the file with that editor.
+        Click the "solve" link for an exercise to copy the solution files to the
+        work-in-progress (http://dealingtree/) website.
+      </p>
+      </div>
+    </div>
+    <article>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+#editor
+{
+  border: 1px solid #E9B928;
+  color: #252525;
+  margin-left: 10em;
+  padding: 2px 0 2px 2px;
+  width: 60%;
+}
+
+#editor input
+{
+  font-family: serif;
+  text-align: center;
+  width: 2em;
+}
+
+#bold
+{
+  font-weight: bolder;
+}
+
+#italic
+{
+  font-style: italic;
+}
+
+#underline
+{
+  text-decoration: underline;
+}
+
+#editorText
+{
+  border: 1px inset #4CE;
+  background-color: white;
+  color: #252525;
+  height: 8em;
+  overflow: auto;
+  padding: 2px;
+  width: 98%;
+  resize: vertical;
+}
+
+#photoArea
+{
+  border: 1px inset #4CE;
+  height: 100px;
+  margin-left: 10em;
+  overflow: hidden;
+  width: 200px;
+}
+
+#photoThumb
+{
+  width: 200px;
+}
+
+#photoDrop
+{
+  opacity: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+#photoDrop.dragover
+{
+  opacity: 0.5;
+}
+
